@@ -1,0 +1,40 @@
+:root {
+    --base: #0B0C10;
+    --neutral: #C5C6C7;
+    --accent: #66FCF1;
+}
+
+.header {
+    display: flex;
+    background: var(--base);
+}
+
+.logo {
+    color: var(--accent);
+    display: inline-block;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    padding: 0 20px;
+}
+
+.spacer {
+    flex-grow: 2;
+}
+
+.icons {
+    color: var(--neutral);
+    display: flex;
+    width: 200px;
+    font-size: 2em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons a {
+    text-decoration: none;
+    color: var(--neutral);
+}
+
+.icons a:hover {
+    color: var(--accent);
+}

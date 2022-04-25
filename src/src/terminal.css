@@ -1,0 +1,52 @@
+.terminal {
+    background: #0B0C10;
+    border-radius: 10px;
+    height: 400px;
+    width: 600px;
+    box-shadow: 10px 10px 0 #45A29E;
+}
+
+.title-bar {
+    height: 50px;
+    border-bottom: 1px solid #45A29E;
+}
+
+.window-controls {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.window-controls div {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
+
+.close {
+    background: #c97777;
+}
+
+.maximize {
+    background: #d6b56d;
+}
+
+.minimize {
+    background: #adbf9d;
+}
+
+.terminal-body {
+    display: flex;
+    align-items: left;
+    justify-content: start;
+    color: #66FCF1;
+    font-size: 2em;
+    font-family: monospace
+}
+
+.terminal-contents {
+    margin: 10px;
+}
